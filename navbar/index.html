@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu de navegación</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66af92cb03.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <img src="/assets/logo2.jpg" alt="Logo">
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre mi</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contactos</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="header">
+        <nav class="nav">
+            <!--<a href="#" class="logo">Logo</a>-->
+            <img src="/assets/logojade.png" alt="logo">
+            <button class="nav-toogle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-visible">
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Blog</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Proyectos</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Sobre mi</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-active">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 </body>
+<h1>Body</h1>
 
 </html>
